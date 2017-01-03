@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sketchpad</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<!-- 顶部 -->
+	<header id="header">
+		<h1>html5在线画板</h1>
+	</header>
+	<!-- 主体 -->
+	<div id="content">
+		<!-- 内容 -->
+		<section>
+			<!-- 按钮区域 start -->
+			<ul class="btnArea">
+				<div id="all">
+				<li>
+					<h4>图像</h4>
+					<hr>
+					<ul class="tx">
+						<li id="save"><span>保存图片</span></li>
+						<li id="clear"><span>清除画布</span></li>
+					</ul>
+				</li>
+				<li>
+					<h4>工具</h4>
+					<hr>
+					<ul class="gj">
+						<!-- 画笔 -->
+						<li id="brush" class="on">
+							<img src="../images/Brush.png" alt="brush">
+						</li>
+						<!-- 橡皮擦 -->
+						<li id="eraser">
+							<img src="../images/Eraser.png" alt="eraser">
+						</li>
+						<!-- 填充 -->
+						<li id="paint">
+							<img src="../images/Paint.png" alt="paint">
+						</li>
+						<!-- 吸色 -->
+						<li id="straw">
+							<img src="../images/Straw.png" alt="straw">
+						</li>
+						<!-- 文本 -->
+						<li id="text">
+							<img src="../images/text.png" alt="text">
+						</li>
+						<!-- 放大镜 -->
+						<li id="magnifier">
+							<img src="../images/Magnifier.png" alt="magnifier">
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h4>形状</h4>
+					<hr>
+					<ul class="xz">
+						<!-- 横线 -->
+						<li id="line">
+							<img src="../images/line.png" alt="line">
+						</li>
+						<!-- 圆 -->
+						<li id="arc">
+							<img src="../images/arc.png" alt="arc">
+						</li>
+						<!-- 矩形 -->
+						<li id="rect">
+							<img src="../images/rect.png" alt="rect">
+						</li>
+						<!-- 三角形 -->
+						<li id="poly">
+							<img src="../images/poly.png" alt="poly">
+						</li>
+						<!-- 实心圆 -->
+						<li id="arcfill">
+							<img src="../images/arcfill.png" alt="arcfill">
+						</li>
+						<!-- 填充矩形 -->
+						<li id="rectfill">
+							<img src="../images/rectfill.png" alt="rectfill">
+						</li>
+					</ul>
+				</li>
+				</div>
+				<li>
+					<h4>粗细</h4>
+					<hr>
+					<ul class="cx">
+						<!-- 1像素大小 -->
+						<li id="line1px">
+							<img src="../images/line1px.png" alt="1">
+						</li>
+						<!-- 3像素大小 -->
+						<li id="line3px">
+							<img src="../images/line3px.png" alt="3">
+						</li>
+						<!-- 5像素大小 -->
+						<li id="line5px">
+							<img src="../images/line5px.png" alt="5">
+						</li>
+						<!-- 8像素大小 -->
+						<li id="line8px">
+							<img src="../images/line8px.png" alt="8">
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h4>颜色</h4>
+					<hr>
+					<ul class="ys">
+						<li id="red" class="colorOn"></li>
+						<li id="green"></li>
+						<li id="blue"></li>
+						<li id="yellow"></li>
+						<li id="white"></li>
+						<li id="black"></li>
+						<li id="pink"></li>
+						<li id="purple"></li>
+						<li id="cyan"></li>
+						<li id="orange"></li>
+					</ul>
+				</li>
+				<div style="clear: both;"></div>
+			</ul>
+			<!-- 按钮区域 end -->
+			<!-- 画布区域 -->
+			<canvas id="canvas" width="1020" height="500">您的浏览器不支持画布，请更换浏览器</canvas>
+		</section>
+	</div>
+	<!-- 底部 -->
+	<footer id="footer">
+		<!-- 已保存的图片 -->
+	</footer>
+</body>
+</html>
+<script type="text/javascript" src="../js/index.js"></script>

@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #abcdef;
+	text-align: center;
+}
+h1{
+	font-weight: lighter;
+	font-size: 50px;
+	line-height: 100px;
+}
+section{
+	width: 1020px;
+	min-height: 600px;
+	margin: auto;
+}
+.btnArea{
+	background: #ccc;
+	border: 10px solid #808080;
+}
+.btnArea>li{
+	list-style: none;
+	float: left;
+	width: 199px;
+	line-height: 30px;
+	font-weight: bold;
+	border-right: 1px solid red;
+}
+.tx li{
+	list-style: square;
+	list-style-position: inside;
+	font-weight: lighter;
+	font-size: 14px;
+	cursor: default;
+}
+.tx li:hover{
+	background: #eee;
+}
+.gj li,.xz li,.ys li{
+	display: block;
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin:4px 10px;
+	border: 1px solid #808080;
+}
+.gj li:hover,.xz li:hover{
+	border-color: #fff;
+}
+.ys li:hover{
+	border-color: #a10000;
+}
+.ys .colorOn{
+	border-color: #a10000;
+}
+.cx li{
+	list-style: none;
+	height: 12px;
+	padding-bottom: 3px;
+}
+.cx li:hover{
+	border-color: #a10000;
+	background: yellow;
+}
+.ys li{
+	width: 25px;
+	margin: 4px 5px;
+}
+li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#red{
+	background: red;
+}
+#green{
+	background: green;
+}
+#blue{
+	background: blue;
+}
+#yellow{
+	background: yellow;
+}
+#white{
+	background: white;
+}
+#black{
+	background: black;
+}
+#pink{
+	background: pink;
+}
+#purple{
+	background: purple;
+}
+#cyan{
+	background: cyan;
+}
+#orange{
+	background: orange;
+}
+canvas{
+	background: #fff;
+	cursor: crosshair;
+}
+.on{
+	background: yellow;
+}
+#all{
+	float: left;
+	width: 600px;
+}
+#all>li{
+	list-style: none;
+	float: left;
+	width: 199px;
+	line-height: 30px;
+	font-weight: bold;
+	border-right: 1px solid red;
+}
+#footer{
+	margin-top: 100px;
+}
+#footer img{
+	padding: 10px;
+	border: 10px solid red;
+}
